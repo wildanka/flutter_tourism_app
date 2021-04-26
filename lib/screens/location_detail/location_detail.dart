@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class LocationDetail extends StatelessWidget {
@@ -6,6 +7,8 @@ class LocationDetail extends StatelessWidget {
     return Scaffold(
         appBar: AppBar(title: Text('Hello')),
         body: Column(
+          mainAxisAlignment: MainAxisAlignment.start,
+          crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
             Container(
               decoration: BoxDecoration(color: Colors.red),
