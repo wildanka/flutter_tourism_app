@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class TextSection extends StatelessWidget{
-  Color _color;
+  final Color _color;
 
   // named parameter constructor
   // TextSection(Color color){
