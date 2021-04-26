@@ -14,6 +14,7 @@ class LocationDetail extends StatelessWidget {
           children: [
             ImageBanner("assets/images/kiyomizu-dera.jpg"),
             TextSection("Title", "Description"),
+            TextSection("Title 2", "Blalalbalbla labla lablsbad sadasd adadwecew 2 d dq3d23d23e34"),
           ],
         ));
   }
